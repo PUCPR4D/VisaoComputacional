@@ -1,0 +1,18 @@
+# Pasta de Resultados
+
+Esta pasta é destinada a armazenar os resultados do seu experimento:
+
+- Imagens geradas
+- Máscaras de segmentação
+- Gráficos comparativos
+- Figuras das pipelines
+
+## Sugestão de organização
+
+```
+resultados/
+├── pipeline_1/
+├── pipeline_2/
+├── pipeline_3/
+└── comparacoes/
+```

@@ -1,0 +1,21 @@
+# Requisitos para o Desafio: Comparando Pipelines sob Variação de Iluminação
+# ============================================================================
+# Este arquivo lista todas as bibliotecas Python necessárias para este desafio.
+#
+# Para instalar, execute no terminal:
+#   pip install -r requirements.txt
+# ============================================================================
+
+# Processamento de imagens
+opencv-python>=4.8.0          # Biblioteca principal de visão computacional
+numpy>=1.24.0                 # Operações numéricas e manipulação de arrays
+
+# Visualização
+matplotlib>=3.7.0             # Criação de gráficos e visualização de imagens
+
+# Ambiente interativo
+jupyter>=1.0.0                # Notebooks interativos para experimentação
+ipykernel>=6.25.0             # Kernel Python para Jupyter
+
+# Utilitários
+pillow>=10.0.0                # Leitura/escrita de formatos de imagem adicionais

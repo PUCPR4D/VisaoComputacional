@@ -1,0 +1,38 @@
+{
+  "experimento": "Comparação de Pipelines sob Variação de Iluminação",
+  "dataset": "ALOI",
+  "objeto": "1",
+  "parametros": {
+    "hsv_lower": [
+      15,
+      80,
+      80
+    ],
+    "hsv_upper": [
+      35,
+      255,
+      255
+    ],
+    "canny_low": 50,
+    "canny_high": 150,
+    "clahe_clip_limit": 3.0,
+    "clahe_tile_size": [
+      8,
+      8
+    ]
+  },
+  "resultados": {
+    "Pipeline 1: HSV Direto": {
+      "consistencia_iou_%": 0.0,
+      "variacao_area_%": 200.0
+    },
+    "Pipeline 2: CLAHE + HSV": {
+      "consistencia_iou_%": 0.0,
+      "variacao_area_%": 33.33
+    },
+    "Pipeline 3: CLAHE + Canny": {
+      "consistencia_iou_%": 74.16,
+      "variacao_area_%": 0.38
+    }
+  }
+}
