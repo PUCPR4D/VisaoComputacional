@@ -1,0 +1,17 @@
+# Pasta de Resultados
+
+Esta pasta é destinada a armazenar os resultados do seu experimento:
+
+- Matrizes de confusão
+- Gráficos de métricas
+- Relatórios de classificação
+- Comparações entre modelos
+
+## Sugestão de organização
+
+```
+resultados/
+├── metricas/
+├── graficos/
+└── relatorios/
+```

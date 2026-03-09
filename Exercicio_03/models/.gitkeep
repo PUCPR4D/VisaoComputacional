@@ -1,0 +1,15 @@
+# Pasta de Modelos
+
+Esta pasta é destinada a armazenar os modelos treinados:
+
+- Arquivos `.joblib` ou `.pkl` dos modelos
+- Configurações de hiperparâmetros
+
+## Exemplos de arquivos
+
+```
+models/
+├── knn_hog.joblib
+├── svm_hog.joblib
+└── config.json
+```

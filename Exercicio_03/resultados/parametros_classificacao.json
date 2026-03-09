@@ -1,0 +1,51 @@
+{
+  "experimento": "Classificação de Peças OK vs Defeito",
+  "dataset": "Severstal Steel Defect Detection",
+  "total_amostras": 400,
+  "train_test_split": 0.2,
+  "preprocessamento": {
+    "target_size": [
+      128,
+      64
+    ],
+    "normalizacao": "[0, 1]",
+    "escala_cinza": true
+  },
+  "hog_params": {
+    "orientations": 9,
+    "pixels_per_cell": [
+      8,
+      8
+    ],
+    "cells_per_block": [
+      2,
+      2
+    ],
+    "block_norm": "L2-Hys",
+    "visualize": true,
+    "feature_vector": true
+  },
+  "knn_params": {
+    "n_neighbors": 5,
+    "metric": "euclidean",
+    "weights": "distance"
+  },
+  "svm_params": {
+    "kernel": "rbf",
+    "C": "1.0",
+    "gamma": "scale",
+    "random_state": "42"
+  },
+  "resultados": {
+    "knn": {
+      "acuracia": 66.25,
+      "precision_defeito": 65.12,
+      "recall_defeito": 70.0
+    },
+    "svm": {
+      "acuracia": 72.5,
+      "precision_defeito": 73.68,
+      "recall_defeito": 70.0
+    }
+  }
+}
